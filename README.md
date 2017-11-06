@@ -1,23 +1,8 @@
-# npm项目脚手架
+# CacheJs
 
-[![NPM version](https://img.shields.io/npm/v/npm-project-template.svg?style=flat-square)](http://badge.fury.io/js/npm-project-template)
-[![Build Status](https://travis-ci.org/bmqb/npm-project-template.svg?branch=master)](https://travis-ci.org/bmqb/npm-project-template)
-[![Dependencies Status](https://david-dm.org/bmqb/npm-project-template.svg)](https://david-dm.org/bmqb/npm-project-template)
-[![codecov](https://codecov.io/gh/bmqb/npm-project-template/branch/master/graph/badge.svg)](https://codecov.io/gh/bmqb/npm-project-template)
-[![npm](https://img.shields.io/npm/dm/npm-project-template.svg?maxAge=2592000)](https://www.npmjs.com/package/npm-project-template)
-[![License](https://img.shields.io/npm/l/npm-project-template.svg?maxAge=2592000?style=plastic)](https://github.com/bmqb/zmxy/blob/master/LICENSE)
+Store arbitrary data associated with the es6 weekman and/or return the value that was set.
 
-
-辅助在Github上从零快速开始一个公开的npm项目, 内置以下功能:
-
-- 源代码可以使用ES2017，`npm publish`时通过babel编译为ES2015, 最低支持node.js v6.0.0
-- 代码提交前自动运行`npm run lint`, 基于[ESLint](http://eslint.org/) + [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript), 不规范的代码将无法提交
-- 基于[AVA](https://github.com/avajs/ava)实现单元测试
-- 基于[TravisCI](https://travis-ci.org/)进行持续集成
-- CI通过后基于[Codecov](https://codecov.io/)自动生成代码覆盖率报告
-- 通过Github的release功能, 自动打包发布到npm
-
-## 使用方法
+## Instructions
 
 **1.** 在Github建立一个空repository, 如`myproject`, 并clone到本地
 

@@ -2,6 +2,7 @@
   "parser": "babel-eslint",
   "extends": "airbnb",
   "rules": {
+    "semi": [2, "never"],
     "class-methods-use-this": [
       0
     ],
@@ -32,6 +33,9 @@
     ],
     "no-await-in-loop": [
       0
-    ]
+    ],
+    "enforceInMethodNames": true,
+    "allowAfterThis": true,
+    "allowAfterSuper": true
   }
 }

@@ -39,6 +39,7 @@ bower_components
 
 .idea/*
 yarn.lock
+# ava test coverage
 /coverage
 .DS_Store
 src/config/config.local*

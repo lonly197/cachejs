@@ -1,5 +1,7 @@
 # CacheJs
 
+[![Build Status](https://travis-ci.org/lonly197/cachejs.svg?branch=master)](https://travis-ci.org/lonly197/cachejs)
+
 Store arbitrary data associated with the es6 weekman and/or return the value that was set.
 
 ## Instructions

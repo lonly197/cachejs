@@ -21,7 +21,7 @@
   },
   "keywords": [],
   "main": "index.js",
-  "author": "BMQB Team",
+  "author": "lonly197@qq.com",
   "ava": {
     "files": [
       "test/**/*.js",

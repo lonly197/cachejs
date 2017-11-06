@@ -9,13 +9,13 @@ Store arbitrary data associated with the es6 weekman and/or return the value tha
 **1.** Install from Npm
 
 ```
-npm install cachejs
+npm install lonly-cachejs
 ```
 
 **2.** Import from node_modules
 
 ```JavaScript
-import { CacheJS } from 'cashjs'Ï
+import { CacheJS } from 'lonly-cashjs'
 ```
 
 **3.** Store or get data

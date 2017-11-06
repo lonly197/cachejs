@@ -1,5 +1,5 @@
 {
-  "name": "cachejs",
+  "name": "lonly-cachejs",
   "version": "1.0.0",
   "description": "Store arbitrary data associated with the es6 weekman and/or return the value that was set.",
   "license": "MIT",

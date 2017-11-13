@@ -2,40 +2,40 @@
 
 [![Build Status](https://travis-ci.org/lonly197/cachejs.svg?branch=master)](https://travis-ci.org/lonly197/cachejs)
 
-Store arbitrary data associated with the es6 weekman and/or return the value that was set.
+使用ES6 WeakMap实现的数据保存库，类似与jquery.data方法，可以向被选元素附加数据，或者从被选元素获取数据。
 
 ## Instructions
 
-[中文文档](./README-CN.md)
+[English Document](./README.md)
 
-**1.** Install from Npm
+**1.** 从NPM库中安装
 
 ```
 npm install lonly-cachejs
 ```
 
-**2.** Import from node_modules
+**2.** 引入
 
 ```JavaScript
 import { CacheJS } from 'lonly-cashjs'
 ```
 
-**3.** Store or get data
+**3.** 使用
 
-Add Data
+保存数据
 
 ```JavaScript
 let tester = {}
 CacheJS.addData(tester, 'name', 'lonly') // return Map
 ```
 
-Get Data
+获取数据
 
 ```JavaScript
 CacheJS.getData(tester, 'name') // return String
 ```
 
-## API List
+## 接口列表
 
 ```
 CacheJS

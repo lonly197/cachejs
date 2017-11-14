@@ -37,10 +37,11 @@ bower_components
 .node_repl_history
 
 .idea
-lib
 .DS_Store
 config/config.local*
 config/sequelize.json
 .nyc_output/
+.setting/
+.vscode/
 docs
 dump.rdb

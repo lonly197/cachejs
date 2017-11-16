@@ -1,4 +1,4 @@
 if (!global._babelPolyfill) {
-  require('babel-polyfill');
+  require('babel-polyfill')
 }
-exports = module.exports = require('./lib');
+exports = module.exports = require('./lib')

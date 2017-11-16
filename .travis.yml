@@ -8,6 +8,7 @@ after_success:
 - cat ./coverage/lcov.info | node_modules/.bin/coveralls --verbose
 - bash <(curl -s https://codecov.io/bash)
 - rm -rf ./coverage
+- npm run build
 deploy:
   provider: npm
   email: lonly197@qq.com
